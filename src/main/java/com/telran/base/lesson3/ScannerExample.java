@@ -27,5 +27,6 @@ public class ScannerExample {
 
         scanner.close();
         //если надо заккоментировать строку command + /
+
     }
 }
