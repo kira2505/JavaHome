@@ -91,7 +91,6 @@ public class homework2 {
             String substringString = string.substring(0, startIndex) + string.substring(endIndex);
             System.out.println("Line without the word 'Java' : " + substringString);
         }
-
         else {
             System.out.println("Word 'Java' not found.");
         }
