@@ -1,0 +1,37 @@
+Если у нас есть статический метод (print() в классе PrintExample) :
+Если метод main, находится в этом классе и мы из него вызываем наш
+статический метод, то просто вызываем по имени print()
+
+public static PrintExample {
+
+       print()
+    }
+
+    public static print() {
+
+    }
+}
+
+Если мы хотим вызвать метод из другого класса, то тогда вызываем имя
+класса, в котором этот метод находится
+
+public static PrintExample() {
+
+     PrintExample.print()
+
+    }
+}
+
+Если print() не статический, то тогда, если мы вызываем его из метода
+main внутри этого класса или из другого метода другого класса,
+то тогда нужно создать объект и вызвать метод у объекта
+
+public static PrintExample {
+       PrintExample printExample = new PrintExample();
+       printExample.print()
+    }
+
+       public static print() {
+
+    }
+}
