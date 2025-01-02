@@ -8,4 +8,12 @@ public class Car {
         this.model = model;
         this.price = price;
     }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public String getModel() {
+        return model;
+    }
 }
